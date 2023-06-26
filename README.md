@@ -61,7 +61,7 @@ The repository includes raw data from various ad platforms, as well as the MCDM 
 
 To build the seeds, run `dbt seed` in the dbt Cloud console. Once the seeds have been built, you can access the data using `ref()`. For example, you can use `select * from {{ ref('src_ads_bing_all_data')}}` to access data from the `src_ads_bing_all_data` seed.
 
-### Q&A
+### Q&A -
 	Q: How to validate results for my model? 
 	A: Compare your dashboard with the dashboard from task. If some numbers doesn't match, then some fiels in your model got incorrect mapped  
 
