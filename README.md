@@ -67,3 +67,4 @@ To build the seeds, run `dbt seed` in the dbt Cloud console. Once the seeds have
 
 	Q: What if there're no MCDM sctructure field in raw datasource data?
 	A: So you started understending the main goal of this task :-)	Suggest wich field or fields corresponds to MCDM ones by their meaning. If there're no such fields, then probably datasource just doesnt got them
+
